@@ -80,29 +80,30 @@ button:hover{
 
 #saida{
     position: absolute;
-    top: 40px;
+    top: 100px;
+    padding: 10px;
     right: 5%;
     width: 35%;
-    height: 650px;
+    height: auto;
     border-radius: 5px;
     background-color: rgb(43, 194, 12);
     border-style: solid;
     border-color: green;
     border-width: 2px;
     text-align: center;
+    vertical-align: middle;
 }
 
 #saida > p{
-    position: relative;
-    top: 50%;
     color: black;
     margin: 0 5px;
     font-size: 20px;
+    text-align: center;
+    overflow-wrap: break-word;
 }
 
 #saida > button{
-    position: relative;
-    top: 70%;
+    position: static;
     width: 75%;
     visibility: hidden;
 }
