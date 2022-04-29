@@ -2,7 +2,8 @@
 
 Primeiro desafio do programa <a href="https://www.alura.com.br/oracle-next-education">ONE</a>, que propõe usar HTML, CSS e Javascript para criar um decodificar de textos.
 
-Descrição do desafio: 
+<strong>Descrição do desafio:</strong> 
+
 "Boas vindas ao primeiro desafio!
 
 Durante estas duas semanas, vamos trabalhar em uma aplicação que criptografa textos, assim você poderá trocar mensagens secretas com outras pessoas que saibam o segredo da criptografia utilizada.
