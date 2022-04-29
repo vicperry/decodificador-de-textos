@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Decodificador</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <header>
+        <h1 id="logo">DECODE</h1>
+    </header>
+
+    <main>
+        <div id="entrada">
+        <textarea name="text" id="text-box" placeholder="Digite seu texto aqui... 
+(Insira apenas letras minúsculas, sem acentos.)"></textarea>
+
+        <div id="botoes">
+            <button onclick="cript()">Criptografar</button>
+            <button onclick="uncript()">Descriptografar</button>
+        </div>
+        </div>
+        
+        <div id="saida">
+            <p id="resultado">Nenhuma mensagem encontrada.<br> Digite um texto que você deseja criptografar ou descriptografar.</p>
+            <button id="copiar-btn" onclick="copiar()">Copiar</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por <a href="https://github.com/vicperry">Victor Pereira</a>.</p>
+    </footer>
+
+    <script src='main.js'></script>
+</body>
+</html>
