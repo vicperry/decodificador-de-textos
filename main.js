@@ -53,7 +53,7 @@ function uncript(){
 function ativarCopiar(){
     //pegar botão e torná-lo visível
     copiarBtn = document.getElementById("copiar-btn");
-    copiarBtn.style.visibility = "visible";
+    copiarBtn.style.display = "inline";
 }
 
 function copiar(){

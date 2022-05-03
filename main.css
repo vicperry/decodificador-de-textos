@@ -96,7 +96,7 @@ button:hover{
 
 #saida > p{
     color: black;
-    margin: 0 5px;
+    margin: 0px 0px;
     font-size: 20px;
     text-align: center;
     overflow-wrap: break-word;
@@ -105,7 +105,7 @@ button:hover{
 #saida > button{
     position: static;
     width: 75%;
-    visibility: hidden;
+    display: none;
 }
 
 a{
